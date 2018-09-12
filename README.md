@@ -4,10 +4,14 @@ You can use the [editor on GitHub](https://github.com/ninecents/ninecents.github
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-#如何快速搭建自己的github.io博客
+# 如何快速搭建自己的github.io博客
+
 https://blog.csdn.net/u012168038/article/details/77715439
+
 比较好的学习资料
+
 https://keysaim.github.io/post/note/awesome-study/
+
 https://github.com/xingshaocheng/architect-awesome
 
 ### Markdown
