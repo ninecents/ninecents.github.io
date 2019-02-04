@@ -7,7 +7,7 @@
 - [02 InjectorCLI源码分析](http://ninecents.github.io/course/ScyllaHide/02%20InjectorCLI源码分析)
 
 ## github的MarkDown常见问题
-#### 链接地址不加.md后缀course/ScyllaHide/00%20简单介绍和使用
+#### 链接地址不加.md后缀
 | 正确示例 | 错误示例 |
 | ------------- | ------------- |
 | [00 简单介绍和使用](http://ninecents.github.io/course/ScyllaHide/00%20简单介绍和使用) | [00 简单介绍和使用](http://ninecents.github.io/course/ScyllaHide/00%20简单介绍和使用.md) |
