@@ -2,7 +2,8 @@
 
 ## ScyllaHide系列教程
 
-- [00 简单介绍和使用.md](http://ninecents.github.io/course/ScyllaHide/00%20简单介绍和使用.md)
+- [00 简单介绍和使用](http://ninecents.github.io/course/ScyllaHide/00%20简单介绍和使用.md)
+- [01 项目概览](http://ninecents.github.io/course/ScyllaHide/01_project_overview.md)
 
 ### 联系方式
 
