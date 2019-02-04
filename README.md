@@ -8,11 +8,13 @@
 
 ## github的MarkDown常见问题
 #### 链接地址不加.md后缀
+
 | 正确示例 | 错误示例 |
 | ------------- | ------------- |
 | [00 简单介绍和使用](http://ninecents.github.io/course/ScyllaHide/00%20简单介绍和使用) | [00 简单介绍和使用](http://ninecents.github.io/course/ScyllaHide/00%20简单介绍和使用.md) |
 
 #### 表格使用例子
+
 | Header Cell | Header Cell |
 | ------------- | ------------- |
 | Content Cell | Content Cell |
