@@ -13,7 +13,7 @@
 | ------------- | ------------- |
 | [00 简单介绍和使用](http://ninecents.github.io/course/ScyllaHide/00%20简单介绍和使用) | [00 简单介绍和使用](http://ninecents.github.io/course/ScyllaHide/00%20简单介绍和使用.md) |
 
-#### 表格使用例子
+#### 表格使用例子（注意前后有空行，否则github不认识）
 
 | Header Cell | Header Cell |
 | ------------- | ------------- |
