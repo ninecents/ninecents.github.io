@@ -2,8 +2,9 @@
 
 ## ScyllaHide系列教程
 
-- [00 简单介绍和使用](http://ninecents.github.io/course/ScyllaHide/00%20简单介绍和使用.md)
-- [01 项目概览](http://ninecents.github.io/course/ScyllaHide/01_project_overview.md)
+- [00 简单介绍和使用](http://ninecents.github.io/course/ScyllaHide/00%20简单介绍和使用)
+- [01 项目概览](http://ninecents.github.io/course/ScyllaHide/01%20项目概览)
+- [02 InjectorCLI源码分析](http://ninecents.github.io/course/ScyllaHide/02%20InjectorCLI源码分析)
 
 ### 联系方式
 
