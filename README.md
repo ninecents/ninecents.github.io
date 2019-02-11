@@ -7,6 +7,9 @@
 - [02 InjectorCLI源码分析](http://ninecents.github.io/course/ScyllaHide/02%20InjectorCLI源码分析)
 - [03 PEB相关反调试](http://ninecents.github.io/course/ScyllaHide/03%20PEB相关反调试)
 
+## 常用工具
+- [ASCII码对照表](http://ninecents.github.io/utils/ASCII码对照表.html)
+
 ## github的MarkDown常见问题
 #### 链接地址不加.md后缀
 

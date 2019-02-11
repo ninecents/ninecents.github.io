@@ -31,14 +31,28 @@ PEB包含了调试相关信息，通过修改被调试进程的相关值就可�
 NtQueryInformationProcess
 Wow64QueryInformationProcess64
 
-## isDebugged
+## peb之BeingDebugged
+下断点，做实验
 
-## 
+## peb之NtGlobalFlag
 
-## 堆，默认堆
+## scl::PebPatchProcessParameters
+
+## scl::PebPatchHeapFlags
+堆，默认堆
 
 
 ## Anti-Debug测试
 - 将被调试进程调试标志位设置为1，附加调试器，检测该标志位如果为0，则表示被ScyllaHide(或者别的调试器)修改了该标志位，通过该方法即可检测到调试器。
 
 - 堆数据结构操作，自己创建一块有特殊属性的堆，如果被Scylla或者其他调试器修改了，就表示检测到调试器。
+
+## 总结
+结束语
+
+[//]: # (This may be the most platform independent comment
+    ## Todo:
+2019-2-11
+MarkDown注释；
+xmind文件提交；
+html静态文本测试-ascii。)
