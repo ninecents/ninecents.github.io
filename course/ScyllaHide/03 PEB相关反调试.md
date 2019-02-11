@@ -15,6 +15,7 @@
 
 ## ApplyPEBPatch函数调用结构图
 回顾上节内容，我们可以知道ApplyPEBPatch是对PEB进行反调试处理的核心函数，其调用结构如下所示：
+![ApplyPEBPatch函数调用结构图](http://ninecents.github.io/course/ScyllaHide/03%20PEB相关反调试/ApplyPEBPatch函数调用结构图.png)
 
 ## 获取指定进程PEB地址
 PEB包含了调试相关信息，通过修改被调试进程的相关值就可以实现反反调试功能，那么怎么获得被调试进程的PEB地址就成了PEB反调试的关键。
@@ -29,8 +30,8 @@ PEB包含了调试相关信息，通过修改被调试进程的相关值就可�
     }
 
 [comment]: <> (<注释> 关于Wow64，暂时没有研究忽略
-NtQueryInformationProcess
-Wow64QueryInformationProcess64)
+    NtQueryInformationProcess
+    Wow64QueryInformationProcess64)
 
 ## peb之BeingDebugged
 下断点，做实验
@@ -51,9 +52,13 @@ Wow64QueryInformationProcess64)
 ## 总结
 结束语
 
-[//]: # (This may be the most platform independent comment
+[//]: <> (This may be the most platform independent comment
     ## Todo:
 2019-2-11
 MarkDown注释；
 xmind文件提交；
 html静态文本测试-ascii。)
+
+[//]: <> (
+    kkk
+    xxx)
