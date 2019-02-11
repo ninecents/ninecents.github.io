@@ -27,9 +27,10 @@ PEB包含了调试相关信息，通过修改被调试进程的相关值就可�
 
         return NT_SUCCESS(status) ? (PEB *)pbi.PebBaseAddress : nullptr;
     }
-<注释> 关于Wow64，暂时没有研究忽略
+
+[comment]: <> (<注释> 关于Wow64，暂时没有研究忽略
 NtQueryInformationProcess
-Wow64QueryInformationProcess64
+Wow64QueryInformationProcess64)
 
 ## peb之BeingDebugged
 下断点，做实验
