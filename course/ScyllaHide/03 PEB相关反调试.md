@@ -1,4 +1,5 @@
 # PEB相关反调试
+
 反调试，接触算是有四五年了，每次遇到问题，都是一头雾水，不知如何下手，总是通过换调试器、找插件进行各种测试。翻看过很多文章，却又总是蜻蜓点水，希望通过ScyllaHide的源码分析，能对反调试有进一步的了解吧。
 
 先说下，最近翻看资料对反调试的理解吧。
@@ -58,7 +59,7 @@ PEB包含了调试相关信息，通过修改被调试进程的相关值就可�
 
 从源码的注释中，我们可以看出，该函数是Scylla对StartUpInfo信息的修改，反汇编windows api GetStartupInfoW，可以看出，就是通过PEB的ProcessParameters成员变量获取出来的。
 
-Scylla将结构体RTL_USER_PROCESS_PARAMETERS中的下面成员置为0，之后执行**rupp.Flags |= (ULONG)0x4000;**语句，没有查到相关资料，求大神指点。
+Scylla将结构体RTL_USER_PROCESS_PARAMETERS中的下面成员置为0，之后执行《rupp.Flags |= (ULONG)0x4000;》语句，没有查到相关资料，求大神指点。
 
     struct RTL_USER_PROCESS_PARAMETERS {
         ....
@@ -92,7 +93,7 @@ NumberOfHeaps表示当前堆的个数，ProcessHeaps为堆地址数组。堆地�
 
 进程创建的时候会创建一个堆，被称为默认堆，即ProcessHeaps的第一个元素，默认堆的flags与其它堆的flags处理方式不一样，详细参考源码。
 
-        if (i == 0)
+        if (i == 0)             // 进程默认堆
         {
             // Default heap.
             *flags &= HEAP_GROWABLE;
@@ -106,10 +107,11 @@ NumberOfHeaps表示当前堆的个数，ProcessHeaps为堆地址数组。堆地�
 非默认堆flags为何设置了其它三个标志，未能找到答案，求大神指导。
 
 
-## Anti-Debug测试
-- 将被调试进程调试标志位设置为1，附加调试器，检测该标志位如果为0，则表示被ScyllaHide(或者别的调试器)修改了该标志位，通过该方法即可检测到调试器。
+[//]: <> (## Anti-Debug测试)
 
-- 堆数据结构操作，自己创建一块有特殊属性的堆，如果被Scylla或者其他调试器修改了，就表示检测到调试器。
+[//]: <> ( - 将被调试进程调试标志位设置为1，附加调试器，检测该标志位如果为0，则表示被ScyllaHide《或者别的调试器》修改了该标志位，通过该方法即可检测到调试器。 )
+
+[//]: <> (- 堆数据结构操作，自己创建一块有特殊属性的堆，如果被Scylla或者其他调试器修改了，就表示检测到调试器。)
 
 ## 广而告之
 九分出品，欢迎吐槽。更多精彩，可以前往[博客地址](https://ninecents.github.io)。
