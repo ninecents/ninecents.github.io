@@ -59,7 +59,7 @@ PEB包含了调试相关信息，通过修改被调试进程的相关值就可�
 
 从源码的注释中，我们可以看出，该函数是Scylla对StartUpInfo信息的修改，反汇编windows api GetStartupInfoW，可以看出，就是通过PEB的ProcessParameters成员变量获取出来的。
 
-Scylla将结构体RTL_USER_PROCESS_PARAMETERS中的下面成员置为0，之后执行《rupp.Flags |= (ULONG)0x4000;》语句，没有查到相关资料，求大神指点。
+Scylla将结构体RTL_USER_PROCESS_PARAMETERS中的下面成员置为0，之后执行<code> rupp.Flags |= (ULONG)0x4000;</code>语句，没有查到相关资料，求大神指点。
 
     struct RTL_USER_PROCESS_PARAMETERS {
         ....
