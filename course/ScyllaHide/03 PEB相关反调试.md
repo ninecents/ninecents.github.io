@@ -17,7 +17,7 @@
 ## ApplyPEBPatch函数调用结构图
 回顾上节内容，我们可以知道ApplyPEBPatch是对PEB进行反调试处理的核心函数，其调用结构如下所示：
 
-![ApplyPEBPatch函数调用结构图](http://ninecents.github.io/course/ScyllaHide/03%20PEB相关反调试/ApplyPEBPatch函数调用结构图.png)
+![ApplyPEBPatch函数调用结构图](https://ninecents.github.io/course/ScyllaHide/03%20PEB相关反调试/ApplyPEBPatch函数调用结构图.png)
 
 从图中我们可以看出，ApplyPEBPatch函数最终调用了读写进程内存操作（wow64使用的是wow64相关的读写api），将被调试进程的PEB、RTL_USER_PROCESS_PARAMETERS等信息读取到InjectorCLI进程，修改调试相关属性，再写回被调试进程。这里其实设计到以下5种情况：
 - 32位系统，只能运行32位的Scylla程序，只需要执行scl::SetPeb函数。
@@ -59,7 +59,7 @@ PEB包含了调试相关信息，通过修改被调试进程的相关值就可�
 
 从源码的注释中，我们可以看出，该函数是Scylla对StartUpInfo信息的修改，反汇编windows api GetStartupInfoW，可以看出，就是通过PEB的ProcessParameters成员变量获取出来的。
 
-Scylla将结构体RTL_USER_PROCESS_PARAMETERS中的下面成员置为0，之后执行<code> rupp.Flags |= (ULONG)0x4000;</code>语句，没有查到相关资料，求大神指点。
+Scylla将结构体RTL_USER_PROCESS_PARAMETERS中的下面成员置为0，之后执行<code> rupp.Flags |= (ULONG)0x4000;</code>语句，没有查到相关资料，不太明白这个语句什么用途，```求大神指点```。
 
     struct RTL_USER_PROCESS_PARAMETERS {
         ....
@@ -104,7 +104,7 @@ NumberOfHeaps表示当前堆的个数，ProcessHeaps为堆地址数组。堆地�
             *flags &= (HEAP_GROWABLE | HEAP_GENERATE_EXCEPTIONS | HEAP_NO_SERIALIZE | HEAP_CREATE_ENABLE_EXECUTE);
         }
 
-非默认堆flags为何设置了其它三个标志，未能找到答案，求大神指导。
+非默认堆flags为何设置了其它三个标志，未能找到答案，```求大神指点```。
 
 
 [//]: <> (## Anti-Debug测试)
