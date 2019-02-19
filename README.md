@@ -6,6 +6,8 @@
 - [01 项目概览](https://ninecents.github.io/course/ScyllaHide/01%20项目概览)
 - [02 InjectorCLI源码分析](https://ninecents.github.io/course/ScyllaHide/02%20InjectorCLI源码分析)
 - [03 PEB相关反调试](https://ninecents.github.io/course/ScyllaHide/03%20PEB相关反调试)
+- [04 ScyllaHide配置报错原因定位](https://ninecents.github.io/course/ScyllaHide/04%20ScyllaHide配置报错原因定位)
+- [05 ScyllaHide的Hook原理](https://ninecents.github.io/course/ScyllaHide/05%20ScyllaHide的Hook原理)
 
 ## 常用工具
 - [ASCII码对照表](https://ninecents.github.io/utils/ASCII码对照表.html)
