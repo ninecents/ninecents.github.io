@@ -9,7 +9,7 @@ Hook根据系统版本（win7、win8、win10等）、cpu架构（x86、x64）、
 
 下面是Hook的整体流程，非目标环境（win7、x64下32位进程）的函数直接忽略了。
 
-![ApplyHook函数调用结构图](https://ninecents.github.io/course/ScyllaHide/03%20PEB相关反调试/ApplyHook函数调用结构图.png)
+![ApplyHook函数调用结构图](https://ninecents.github.io/course/ScyllaHide/05%20ScyllaHide的Hook原理/ApplyHook函数调用结构图.png)
 
 
 ## 广而告之
