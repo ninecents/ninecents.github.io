@@ -18,6 +18,7 @@
 ## 杂项
 - [踩坑MarkDown](https://ninecents.github.io/utils/踩坑MarkDown)
 - [有趣的字节](https://ninecents.github.io/utils/interesting/有趣的字节)
+- [chrome的console代码集锦](https://ninecents.github.io/utils/interesting/chrome的console代码集锦)
 
 
 ## 联系方式
