@@ -160,7 +160,7 @@ wow64中直接也拿这个保留位置用于进行32位64位环境切换的跳�
 
 现在，我们可以看下函数DetourCreateRemoteNative32的调用图：
 
-![NtClose的Hook流程_DetourCreateRemoteNative32](https://ninecents.github.io/course/ScyllaHide/05%20ScyllaHide的Hook原理/NtClose的Hook流程_DetourCreateRemoteNative32.png)
+![DetourCreateRemoteNative32流程](https://ninecents.github.io/course/ScyllaHide/05%20ScyllaHide的Hook原理/DetourCreateRemoteNative32流程.png)
 
 DetourCreateRemoteNative32函数相对简单点：
 
@@ -173,7 +173,7 @@ DetourCreateRemoteNative32函数相对简单点：
 
 接下来，我们再看下函数DetourCreateRemoteNativeSysWow64的调用逻辑，如下图所示：
 
-![NtClose的Hook流程_DetourCreateRemoteNativeSysWow64](https://ninecents.github.io/course/ScyllaHide/05%20ScyllaHide的Hook原理/NtClose的Hook流程_DetourCreateRemoteNativeSysWow64.png)
+![DetourCreateRemoteNativeSysWow64流程](https://ninecents.github.io/course/ScyllaHide/05%20ScyllaHide的Hook原理/DetourCreateRemoteNativeSysWow64流程.png)
 
 函数DetourCreateRemoteNativeSysWow64执行流程为：
 
