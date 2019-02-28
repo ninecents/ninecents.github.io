@@ -197,6 +197,7 @@ NtClose函数的备份，用于HookedNtClose函数中被调用，那么它的内
 
 ![Nt系列hook总结](https://ninecents.github.io/course/ScyllaHide/05%20ScyllaHide的Hook原理/Nt系列hook总结.png)
 
+
 ## 其它关键点
 
 #### minDetourLen为何为常量6（包含一个nop，一个jmp，和一个4字节的地址）
