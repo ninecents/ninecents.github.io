@@ -1,3 +1,13 @@
+# [ScyllaHide] 文章列表-看雪地址：
+
+- [00 简单介绍和使用](https://bbs.pediy.com/thread-249151.htm)
+- [01 项目概览](https://bbs.pediy.com/thread-249305.htm)
+- [02 InjectorCLI源码分析](https://bbs.pediy.com/thread-249306.htm)
+- [03 PEB相关反调试](https://bbs.pediy.com/thread-249374.htm)
+- [04 ScyllaHide配置报错原因定位](https://bbs.pediy.com/thread-249524.htm)
+- [05 ScyllaHide的Hook原理](https://bbs.pediy.com/thread-249721.htm)
+
+
 # ScyllaHide的Hook原理
 
 Hook是通过修改程序代码或数据，达到改变程序逻辑的目的。Hook种类很多，ScyllaHide主要使用的是inline hook，也就是在运行的流程中插入跳转指令（call/jmp）来抢夺程序运行流程的一个方法。

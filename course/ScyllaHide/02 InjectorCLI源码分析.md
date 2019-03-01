@@ -1,3 +1,13 @@
+# [ScyllaHide] 文章列表-看雪地址：
+
+- [00 简单介绍和使用](https://bbs.pediy.com/thread-249151.htm)
+- [01 项目概览](https://bbs.pediy.com/thread-249305.htm)
+- [02 InjectorCLI源码分析](https://bbs.pediy.com/thread-249306.htm)
+- [03 PEB相关反调试](https://bbs.pediy.com/thread-249374.htm)
+- [04 ScyllaHide配置报错原因定位](https://bbs.pediy.com/thread-249524.htm)
+- [05 ScyllaHide的Hook原理](https://bbs.pediy.com/thread-249721.htm)
+
+
 # InjectorCLI源码分析
 从项目名字，我们可以看出，该项目是注入功能的命令行程序。它实现了HookLibrary.dll的命令行注入，并启动反调试功能。
 
@@ -76,3 +86,7 @@ Scylla的dll注入对PE文件进行了重定位，是否适用于所有的dll呢
 
 ### 问题三：注入后如何实现反调试
 这个下节再议，新年快乐。
+
+
+## 广而告之
+九分出品，欢迎吐槽。更多精彩，可以前往[博客地址](https://ninecents.github.io)。
