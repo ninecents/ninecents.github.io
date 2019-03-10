@@ -19,10 +19,15 @@
 - [踩坑MarkDown](https://ninecents.github.io/utils/踩坑MarkDown)
 - [有趣的字节](https://ninecents.github.io/utils/interesting/有趣的字节)
 - [chrome的console代码集锦](https://ninecents.github.io/utils/interesting/chrome的console代码集锦)
+- IDA使用技巧：
+  - 函数（尤其是导入表、Qt Creator创建的exe）解析：Options▶Demangled Names▶Assume GCC；设置完成后，连函数调用都被正常解析了（GCC编译的函数，堆栈在函数入口即被分配完成，函数传参，直接通过赋值[esp+0xFF]实现）。  参考文章https://blog.csdn.net/hgy413/article/details/50589942
 
 
 ## TODO：
 - 反调试测试之IsBadStringPtr系列
+- 九分工具箱（补充吾爱破解工具包2.0）：
+  - 导入导出函数：Depends.exe、（C++函数解析）
+  - C++函数解析：demumble.exe
 
 
 ## 联系方式
