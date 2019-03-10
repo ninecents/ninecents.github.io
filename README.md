@@ -21,6 +21,12 @@
 - [chrome的console代码集锦](https://ninecents.github.io/utils/interesting/chrome的console代码集锦)
 - IDA使用技巧：
   - 函数（尤其是导入表、Qt Creator创建的exe）解析：Options▶Demangled Names▶Assume GCC；设置完成后，连函数调用都被正常解析了（GCC编译的函数，堆栈在函数入口即被分配完成，函数传参，直接通过赋值[esp+0xFF]实现）。  参考文章https://blog.csdn.net/hgy413/article/details/50589942
+  - 字符串解析为UTF8：Options▶ASCII string style▶change encoding/Set default encodings。  参考文章https://blog.csdn.net/C147258hong/article/details/52808663
+- QT窗口程序逆向思路：
+  - 关键函数：QComboBox::insertItem、QString::text() const等
+  - 函数调用传参数
+  - 想知道某个值是怎么生成的，通过CE和OD，不断下断点搜索内存，定位关键函数。如果可以确认是WindowsAPI或库函数，可以直接通过IDA查看函数调用关系，加快定位速度。
+
 
 
 ## TODO：
