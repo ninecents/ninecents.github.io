@@ -11,6 +11,15 @@
 - [05 ScyllaHide的Hook原理](https://ninecents.github.io/course/ScyllaHide/05%20ScyllaHide的Hook原理)
 
 
+## frida系列教程
+- [00_简单介绍和使用](https://ninecents.github.io/course/frida/00_简单介绍和使用)
+
+
+## 开源库
+- [Blackbone](https://github.com/DarthTon/Blackbone)
+- [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy)
+
+
 ## 常用工具
 - [ASCII码对照表](https://ninecents.github.io/utils/ASCII码对照表.html)
 
@@ -34,6 +43,7 @@
 - 九分工具箱（补充吾爱破解工具包2.0）：
   - 导入导出函数：Depends.exe、（C++函数解析）
   - C++函数解析：demumble.exe
+  - 其他：查看进程各种数据结构r0、r3 [xntsv](https://github.com/horsicq/xntsv)
 
 
 ## 联系方式
