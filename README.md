@@ -15,6 +15,10 @@
 - [00_简单介绍和使用](https://ninecents.github.io/course/frida/00_简单介绍和使用)
 
 
+## Qt逆向系列教程
+- [00_Qt资源解析](https://ninecents.github.io/course/Qt/00_Qt资源解析 )
+
+
 ## 开源库
 - [Blackbone](https://github.com/DarthTon/Blackbone)
 - [Detect-It-Easy](https://github.com/horsicq/Detect-It-Easy)
