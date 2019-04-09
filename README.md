@@ -16,7 +16,10 @@
 
 
 ## Qt逆向系列教程
-- [00_Qt资源解析](https://ninecents.github.io/course/Qt/00_Qt资源解析 )
+- [00_Qt资源解析](https://ninecents.github.io/course/Qt/00_Qt资源解析)
+- [01_Qt日志信息打印](https://ninecents.github.io/course/Qt/01_Qt日志信息打印)
+- [02_Qt之MingW程序汇编分析](https://ninecents.github.io/course/Qt/01_Qt日志信息打印)
+- [03_Qt程序其它杂项分析](https://ninecents.github.io/course/Qt/01_Qt日志信息打印)
 
 
 ## 开源库
