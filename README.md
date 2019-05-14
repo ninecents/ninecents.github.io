@@ -50,6 +50,9 @@
   - 想知道某个值是怎么生成的，通过CE和OD，不断下断点搜索内存，定位关键函数。如果可以确认是WindowsAPI或库函数，可以直接通过IDA查看函数调用关系，加快定位速度。
 
 
+## tools
+- [which实现原理](https://ninecents.github.io/tools/which实现原理)
+
 
 ## TODO：
 - 反调试测试之IsBadStringPtr系列
