@@ -77,10 +77,16 @@ DEP ：数据执行保护的英文缩写，全称为Data Execution Prevention。
 - fatal error LNK1104: 无法打开文件“msvcprtd.lib”；安装Spectre组件
 - fatal error LNK1104: 无法打开文件“atls.lib”；安装带Spectre的ATL
 - vs2017-xp支持：https://docs.microsoft.com/en-us/cpp/build/configuring-programs-for-windows-xp?view=vs-2019
+- 非类型模板参数中的 "auto" 最低要求为 "/std:c++17"；在《项目->属性-> C/C++ -> 语言 -> C++语言标准》中设置c++17或者c++latest都行
+
 
 编译选项如下图所示：
 
 ![BlackBone开发环境设置](https://ninecents.github.io/course/WinDriver/FF_BlackBone介绍/BlackBone开发环境设置.png)
+
+C++17编译错误修正：
+
+![C++17编译错误](https://ninecents.github.io/course/WinDriver/FF_BlackBone介绍/C++17编译错误.png)
 
 
 ## 广而告之
