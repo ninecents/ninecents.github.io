@@ -84,7 +84,7 @@ DEP ：数据执行保护的英文缩写，全称为Data Execution Prevention。
 
 ![BlackBone开发环境设置](https://ninecents.github.io/course/WinDriver/FF_BlackBone介绍/BlackBone开发环境设置.png)
 
-C++17编译错误修正：
+C++17编译错误修正（集成BlackBone到自己的工程会出现这个错误）：
 
 ![C++17编译错误](https://ninecents.github.io/course/WinDriver/FF_BlackBone介绍/C++17编译错误.png)
 
@@ -92,3 +92,5 @@ C++17编译错误修正：
 ## 广而告之
 九分出品，欢迎吐槽。更多精彩，可以前往[博客地址](https://ninecents.github.io)。
 
+
+## 参考文档
