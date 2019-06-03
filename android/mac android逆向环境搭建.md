@@ -20,3 +20,15 @@
 - https://www.cnblogs.com/gordon0918/p/5570811.html
 - https://www.jianshu.com/p/9843e80f5ac5
 - https://www.52pojie.cn/thread-658865-1-1.html
+
+
+# Android 「动态分析」打开调试开关
+https://www.bodkin.ren/index.php/archives/533/
+https://www.cnblogs.com/gm-201705/p/9863930.html
+https://blog.csdn.net/hu3167343/article/details/45223767
+
+
+## 参考文档
+《android应用安全防护和逆向分析》
+《Android软件安全与逆向分析》
+《Android安全攻防权威指南》
