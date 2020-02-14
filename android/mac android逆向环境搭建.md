@@ -16,6 +16,7 @@
 - [smalidea 安装](https://github.com/JesusFreke/smali/wiki/smalidea)
 
 动态调试smali文章列表
+- AndroidStudio无源码动态调试apk https://www.jianshu.com/p/1a28e6439c6a
 - https://www.cnblogs.com/goodhacker/p/5592313.html
 - https://www.cnblogs.com/gordon0918/p/5570811.html
 - https://www.jianshu.com/p/9843e80f5ac5
